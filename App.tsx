@@ -40,7 +40,7 @@ export default function App() {
 
       setTemperature(weatherData.current_weather.temperature);
     } catch (error: any) {
-      Alert.alert('Virhe', error.message);
+      Alert.alert('Virhe haettaessa säätä', error.message);
     }
   };
 
